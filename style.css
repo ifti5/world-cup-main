@@ -1,9 +1,11 @@
 
 /*Fots*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+/*background background color*/
 body{
     background-color:white;
 }
+/*first section start including banner,player photo, h1, paragraph*/
 .top{
     background-color: black;
     display: flex;
@@ -14,13 +16,14 @@ body{
   
     border-radius: 30px;
 }
+/*bacground size*/
 main{
     display: flex;
     flex-direction: column;
     margin-left: 14%;
     margin-right: 14%;
 }
-
+/*First section player height width*/
 .player img{
 width: 500px;
 height: 676px;
@@ -36,10 +39,13 @@ height: 676px;
     margin-right: 140px;
    
 }
+/*First section H1*/
 .toph1{
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/*First section paragraph below f1*/
 .topp{
 font-size: 1.25em;
 margin-top: 1px;
@@ -47,7 +53,7 @@ margin-bottom: 30px;
 
 
 }
-
+/*first section button*/
 .topword a{
     text-decoration: none;
     color: white;
@@ -60,16 +66,44 @@ margin-bottom: 30px;
     padding: 10px;
 }
 
+/*Top Button icon beside watch live*/
 .icon1{
-    margin-left: 5px;
+    margin-left: 15px;
+    font-size: 1.1em;
     color: black;
+    background-color: red;
+    animation-name: colorchange;
+    animation:colorchange 2s infinite;
 }
-
+@keyframes colorchange {
+    0% {
+        color: #464e50;
+      }
+      20%{
+        color: aqua;
+      }
+      40%{
+        color: rgb(31, 19, 43);
+      }
+      60%{
+        color: rgb(106, 121, 187);
+      }
+      80%{
+        color: rgb(106, 116, 70);
+      }
+      100%{
+        color:azure;
+      }      }
+   
+  }
+/*First section Eng*/
 .content .blog .middlep{
     display: flex;
     flex-direction: row;
     row-gap: 10px;
 }
+
+/*Second section*/
 .middle-button a{
     text-decoration: none;
     color: black;
@@ -110,6 +144,7 @@ margin-bottom: 30px;
     gap: 120px;
     margin-left: 40px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .content .blog{
@@ -126,7 +161,9 @@ border-radius: 2px;
  .content .imgdes{
     padding-top: 1px;
  }
+/*second section end*/
 
+/*Foooter start*/
  footer{
     background-color: black;
     height: 350px;
@@ -219,8 +256,7 @@ Media Query for mobile phone 600px
        flex-direction: column;
         height: 870px;
         width: 100%;
-        margin-left: 14%;
-        margin-right: 14%;
+        
    justify-content: center;
         border-radius: 30px;
     }
@@ -248,7 +284,7 @@ Media Query for mobile phone 600px
             border: 1px solid red;
             background-color: red;
             border-radius: 5px;
-            width: 150px;
+            width: 100%;
             
            
         }
@@ -278,8 +314,7 @@ Media Query for mobile phone 600px
         .midlebuttonback{
             background: rgb(31, 27, 27);
           width: 100%;
-          margin-left: 20%;
-          margin-right: 20%;
+         margin-bottom: 20px;
             justify-content: center;
             border-radius: 15px;
             
@@ -288,9 +323,10 @@ Media Query for mobile phone 600px
         .content{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            margin-left: 24%;
-            margin-right: 22%;
+            width: 100%;
             gap: 20px;
+            margin-bottom: 40px;
+           
             
         }
         
@@ -311,7 +347,7 @@ Media Query for mobile phone 600px
 
          footer{
             background-color: black;
-            height: 350px;
+            height: 400px;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -436,6 +472,7 @@ Media Query for Tab 868px
             grid-template-columns: repeat(2, 1fr);
            width: 100%;
             gap: 10px;
+            margin-bottom: 40px;
             
         }
         
