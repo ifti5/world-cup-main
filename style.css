@@ -1,0 +1,492 @@
+
+/*Fots*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+body{
+    background-color:white;
+}
+.top{
+    background-color: black;
+    display: flex;
+    height: 646px;
+    width: 100%;
+    padding:30px;
+    margin-top: 21px;
+  
+    border-radius: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.player img{
+width: 500px;
+height: 676px;
+
+}
+
+.topword{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-left: 70px;
+    margin-right: 140px;
+   
+}
+.toph1{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topp{
+font-size: 1.25em;
+margin-top: 1px;
+margin-bottom: 30px;
+
+
+}
+
+.topword a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 300px;
+    padding: 10px;
+}
+
+.icon1{
+    margin-left: 5px;
+    color: black;
+}
+
+.content .blog .middlep{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+}
+.middle-button a{
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid wheat;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;    
+}
+.middle-button a:hover{
+    background-color: red;
+    color: black;
+    font-size: 1.2em;
+    transition: 1s;
+    text-align: center;
+}
+.middle{
+    display: flex;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.midlebuttonback{
+        background: rgb(31, 27, 27);
+        height: 240px;
+        width: 550px;
+        border-radius: 15px;
+        position:relative;
+        
+        
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 120px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.content .blog{
+    border: 1px solid rgb(235, 230, 230);
+}
+
+.content .blog a{
+text-decoration: none;
+font-size: 1.3em;
+color: black;
+border: 1px solid black;
+border-radius: 2px;    
+}
+ .content .imgdes{
+    padding-top: 1px;
+ }
+
+ footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+ }
+ footer h1{
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    
+ }
+ .social {
+margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+hr{
+    color:;
+    width:70%;
+    margin-bottom: 50px;
+}
+
+
+footer .fotcontent{
+display: flex;
+justify-content: center;
+gap:80px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(144, 146, 148);
+}
+
+footer a:hover{
+    font-size: 1.2em;
+    color:green;
+    font:bolder;
+    transition: 1s;
+
+}
+.view{
+ display:none;
+margin-left: 50%;
+ margin-bottom: 20px;
+ padding: 20px;
+}
+/*------------------------------
+Upcomming Match pages CSS stlye start
+----------------------------------*/
+.flag{
+display: flex;
+margin-top: 50px;
+margin-left: 10px;
+margin-right: 10px;
+gap:5px;
+}
+.images{
+    text-align: center;
+    
+}
+.images p{
+    color: grey;
+}
+/*------------------------------
+Upcomming Match pages CSS stye END
+----------------------------------*/
+/*------------------------------
+Media Query for mobile phone 600px
+----------------------------------*/
+
+@media (max-width: 600px){
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+    
+    .top{
+        background-color: black;
+       display: flex;
+       flex-direction: column;
+        height: 870px;
+        width: 100%;
+        margin-left: 14%;
+        margin-right: 14%;
+   justify-content: center;
+        border-radius: 30px;
+    }
+    .topword{
+        color: aliceblue;
+        display: flex;
+        margin-top: 30%;
+        margin-left: 1%;
+        margin-right: 1%;
+        flex-direction: column;
+       
+    }
+  
+    .player img{
+        width: auto;
+        height: 403px;
+        margin: 62px;
+        
+        }
+
+
+        .topword a{
+            text-decoration: none;
+            color: white;
+            border: 1px solid red;
+            background-color: red;
+            border-radius: 5px;
+            width: 150px;
+            
+           
+        }
+      
+        .middle-button a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            border-radius: 30px;
+            border: 1px solid wheat;
+            background-color: white;
+            border-radius: 5px;
+         
+      
+        }
+        .middle-button a:hover{
+            background-color: red;
+            color: black;
+        }
+        .middle{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+            margin-top: 40px;
+            border-radius: 30px;
+        }
+        .midlebuttonback{
+            background: rgb(31, 27, 27);
+          width: 100%;
+          margin-left: 20%;
+          margin-right: 20%;
+            justify-content: center;
+            border-radius: 15px;
+            
+            
+    }
+        .content{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 24%;
+            margin-right: 22%;
+            gap: 20px;
+            
+        }
+        
+        .content .blog{
+            border: 1px solid rgb(235, 230, 230);
+        }
+        
+        .content .blog a{
+        text-decoration: none;
+        font-size: 1em;
+        color: black;
+        border: 1px solid black;
+        border-radius: 2px;    
+        }
+         .content .imgdes{
+            padding-top: 1px;
+         }
+
+         footer{
+            background-color: black;
+            height: 350px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+         }
+         footer h1{
+            color:aliceblue;
+            font-family:'Times New Roman', Times, serif;
+    
+            
+         }
+        
+        footer .fotcontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:10px;
+        }
+        
+        footer a{
+            text-decoration: none;
+            color: rgb(144, 146, 148);
+        }
+
+
+.view{
+    display: inline;
+margin-left: 50%;
+ margin-bottom: 20px;
+ padding: 20px;
+}
+    }
+    /*------------------------------
+Media Query for Tab 868px
+----------------------------------*/
+@media (max-width: 868px) and (min-width:601px)
+{
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+    
+    .top{
+        background-color: black;
+       display: flex;
+       flex-direction: column;
+        height: 870px;
+        width: 100%;
+        margin-left: 14%;
+        margin-right: 14%;
+   justify-content: center;
+        border-radius: 30px;
+    }
+    .topword{
+        color: aliceblue;
+        display: flex;
+        margin-top: 30%;
+        margin-left: 1%;
+        margin-right: 1%;
+        flex-direction: column;
+       
+    }
+  
+    .player img{
+        width: auto;
+        height: 400px;
+        margin: 62px;
+        
+        }
+
+
+        .topword a{
+            text-decoration: none;
+            color: white;
+            border: 1px solid red;
+            background-color: red;
+            border-radius: 5px;
+            width: 150px;
+            
+           
+        }
+      
+        .middle-button a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            border-radius: 30px;
+            border: 1px solid wheat;
+            background-color: white;
+            border-radius: 5px;
+         
+      
+        }
+        .middle-button a:hover{
+            background-color: red;
+            color: black;
+        }
+        .middle{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+            border-radius: 30px;
+        }
+        .midlebuttonback{
+            background: rgb(31, 27, 27);
+          width: 100%;
+          margin-left: 20%;
+          margin-right: 20%;
+          display: grid;
+          grid-template-rows: repeat(3,1fr);
+            justify-content: center;
+            border-radius: 15px;
+            
+            
+    }
+        .content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+           width: 100%;
+            gap: 10px;
+            
+        }
+        
+        .content .blog{
+            border: 1px solid rgb(165, 160, 160);
+        }
+        
+        .content .blog a{
+        text-decoration: none;
+        font-size: 1em;
+        color: black;
+        border: 1px solid black;
+        border-radius: 2px;    
+        }
+         .content .imges{
+            padding-top: 1px;
+         }
+
+         footer{
+            background-color: black;
+            height: 350px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+         }
+         footer h1{
+            color:aliceblue;
+            font-family:'Times New Roman', Times, serif;
+    
+            
+         }
+        
+        footer .fotcontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:10px;
+        }
+        
+        footer a{
+            text-decoration: none;
+            color: rgb(144, 146, 148);
+        }
+
+        .view{
+            display: inline;
+        margin-left: 50%;
+         margin-bottom: 20px;
+         padding: 20px;
+        }
+
+    }
